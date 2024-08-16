@@ -118,6 +118,12 @@ nav{
 
 .socials2 {
     position: absolute;
-    top: 950px;
-    left: 300px;
+    top: 930px;
+    left: 215px;
+}
+
+.socials3 {
+    position: absolute;
+    top: 865px;
+    left: 450px;
 }
