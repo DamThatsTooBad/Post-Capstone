@@ -27,11 +27,6 @@ nav{
 
 .menu_bar li{
     margin-left: 20px;
-    transition: 2s;
-}
-.menu_bar li:hover{
-    transform:scale(2);
-    z-index:2;
 }
 .menu_bar li a{
     font-size: 19px;
@@ -92,24 +87,7 @@ img{
     right: 120px;
     bottom: -210px;
 }
-.Project1img:hover{
-    transform:scale(1.2);
-    z-index:2;
-}
-.Project2img:hover{
-    transform:scale(1.2);
-    z-index:2;
-}
 
-.Project3img:hover{
-    transform:scale(1.2);
-    z-index:2;
-}
-
-.Project4img:hover{
-    transform:scale(1.2);
-    z-index:2;
-}
 .Social-Info{
     display: flex;
     justify-content: center;
@@ -122,19 +100,5 @@ img{
 .head2{
     text-align: center;
     font-size: 80px;
-    
-}
-.socialsLogos1:hover{
-    transform:scale(1.2);
-    z-index:2;
-}
-.socialsLogos2:hover{
-    transform:scale(1.2);
-    z-index:2;
-}
-
-.socialsLogos3:hover{
-    transform:scale(1.2);
-    z-index:2;
 }
 

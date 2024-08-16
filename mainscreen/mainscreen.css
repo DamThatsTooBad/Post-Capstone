@@ -1,5 +1,7 @@
 body{
-    font-family: sans-serif 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    background-color: rgb(255, 255, 255);
 
 }
 nav{
@@ -27,7 +29,6 @@ nav{
     justify-content: space-around;
     list-style: none;
 }
-
 .menu_bar li{
     margin-left: 20px;
 }
@@ -59,58 +60,49 @@ nav{
     display: flex;
     font-size: large;
 }
-
-.name{
-    position: center;
-    font-size: 40px
-    
-
+.Heading{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: dimgray;
 }
-
-.profile{
+img{
+    max-width: 400px;
     border: solid black;
-    border-radius: 10px;
-    color:rgb(97, 180, 252) ;
-    box-shadow: 2px 2px 20px 2px;
-    
 }
-
-.Projects {
-    position: absolute;
-    top: 205px;
-    left: 1000px;
-    text-size-adjust: 20px;
+.Joshua{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    font-size: 20px;
 }
-
-
-
-.Project1 {
-    position:absolute;
-    top: 275px;
-    left: 1000px;
+.Derek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    font-size: 20px;
 }
-
-
-.Project2 {
-    position: absolute;
-    top: 600px;
-    left: 1000px;
+.Kripal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    font-size: 20px;
 }
-
-.socials1 {
-    position: absolute;
-    top: 950px;
-    left: 2px;
+.Steven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh; 
+    font-size: 20px;
 }
-
-.socials2 {
-    position: absolute;
-    top: 930px;
-    left: 215px;
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
 }
+.Desc{
+    padding: 25px;
 
-.socials3 {
-    position: absolute;
-    top: 865px;
-    left: 450px;
 }
