@@ -133,3 +133,45 @@ nav{
     top: 620px;
     left: 600px
 }
+.project1 img:hover{
+    transform:scale(1.2);
+    z-index:2;
+    transition: transform 0.3s ease;
+}
+.project2 img:hover{
+    transform:scale(1.2);
+    z-index:2;
+    transition: transform 0.3s ease;
+}
+.project3 img:hover{
+    transform:scale(1.2);
+    z-index:2;
+    transition: transform 0.3s ease;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .socialsLogos1 img, .socialsLogo2 img, .socialsLogo3 img {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .socialsLogos1 img:hover, .socialsLogo2 img:hover, .socialsLogo3 img:hover {
+    animation: bounce 0.5s;
+  }
+  .menu_bar li{
+    margin-left: 20px;
+    transition: 2s;
+}
+.menu_bar li:hover{
+    transform:scale(2);
+    z-index:2;
+}

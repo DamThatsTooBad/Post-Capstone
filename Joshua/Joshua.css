@@ -13,10 +13,12 @@ nav{
     border-radius: 200px;
 
 }
-.logo{
-    height: 100px;
-    width: 100px;
-    border: 0px solid;
+.sogo{
+    height: 80px;
+    width: 80px;
+    border: 0cap;
+    
+
 }
 .menu_bar{
     width:55%;
@@ -101,4 +103,50 @@ img{
     text-align: center;
     font-size: 80px;
 }
+.Project1img:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.Project2img:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
 
+.Project3img:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+
+.Project4img:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.Social-Info{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: solid 0px;
+    border-radius: 100%;
+    transition: 2s;
+}
+.socialsLogos1:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.socialsLogos2:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+
+.socialsLogos3:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.menu_bar li{
+    margin-left: 20px;
+    transition: 2s;
+}
+.menu_bar li:hover{
+    transform:scale(2);
+    z-index:2;
+}

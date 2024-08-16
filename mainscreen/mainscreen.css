@@ -106,3 +106,11 @@ img{
     padding: 25px;
 
 }
+.menu_bar li{
+    margin-left: 20px;
+    transition: 2s;
+}
+.menu_bar li:hover{
+    transform:scale(2);
+    z-index:2;
+}
