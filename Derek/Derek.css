@@ -1,0 +1,123 @@
+body{
+    font-family: sans-serif 
+
+}
+nav{
+    border: solid;
+    width: 98%;
+    height: 75px;
+    padding: 5px;
+    background-color:rgb(157, 196, 230);
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black;
+    border-radius: 200px;
+
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 0px solid;
+}
+.menu_bar{
+    width:55%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu_bar li{
+    margin-left: 20px;
+    transition: 2s;
+}
+.menu_bar li:hover{
+    transform:scale(2);
+    z-index:2;
+}
+.menu_bar li a{
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+}
+.menu_bar li a:hover{
+    color:rgb(120, 133, 137);
+    opacity: 0.5;
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    border: solid rgb(157, 196, 230);
+    border-radius: 5px;
+
+}
+.search_bar form{
+    display: flex;
+}
+.search_bar input{
+    padding: 10px;
+    border:5px solid white;
+}
+
+.button{
+    display: flex;
+    font-size: large;
+}
+
+.name{
+    position: center;
+    font-size: 40px
+    
+
+}
+
+.profile{
+    border: solid black;
+    border-radius: 10px;
+    color:rgb(97, 180, 252) ;
+    box-shadow: 2px 2px 20px 2px;
+    
+}
+
+.Projects {
+    position: absolute;
+    top: 205px;
+    left: 1000px;
+    text-size-adjust: 20px;
+}
+
+.Project1 img:hover{
+    transform:scale(1.2);
+    z-index:2;
+    transition: transform 0.3s ease;
+}
+
+.Project1 {
+    position:absolute;
+    top: 275px;
+    left: 1000px;
+}
+
+.Project2 img:hover{
+    transform:scale(1.2);
+    z-index:2;
+    transition: transform 0.3s ease;
+}
+.Project2 {
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+}
+
+.socials1 {
+    position: absolute;
+    top: 950px;
+    left: 2px;
+}
+
+.socials2 {
+    position: absolute;
+    top: 950px;
+    left: 300px;
+}
